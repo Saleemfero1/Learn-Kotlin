@@ -7,7 +7,8 @@ fun simple(): List<Int> = listOf(1, 2, 3)
 
 
 /*Asynchronous Flow
-A suspending function asynchronously returns a single value, but how can we return multiple asynchronously computed values? This is where Kotlin Flows come in.
+A suspending function asynchronously returns a single value, but how can we return multiple asynchronously computed values?
+This is where Kotlin Flows come in.
 
 ===============Multiple values can be represented in Kotlin using collections.===========
 

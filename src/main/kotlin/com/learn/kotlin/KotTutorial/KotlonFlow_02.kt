@@ -10,7 +10,8 @@ fun simpleOne(): Sequence<Int> = sequence { // sequence builder
 
 /*
 Sequences
-If we are computing the numbers with some CPU-consuming blocking code (each computation taking 100ms), then we can represent the numbers using a Sequence
+If we are computing the numbers with some CPU-consuming blocking code (each computation taking 100ms),
+then we can represent the numbers using a Sequence
 
 
 fun simple(): Sequence<Int> = sequence { // sequence builder
