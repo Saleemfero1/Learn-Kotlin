@@ -1,7 +1,10 @@
 package com.learn.kotlin.KotTutorial
 
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.joinAll
+suspend fun simpleThree(): List<Int> {
+    delay(1000) // pretend we are doing something asynchronous here
+    return listOf(1, 2, 3,4,5,6)
+}
 
 /*
 Suspending functions
@@ -20,7 +23,3 @@ fun main() = runBlocking<Unit> {
 
 * */
 
-suspend fun simpleThree(): List<Int> {
-    delay(1000) // pretend we are doing something asynchronous here
-    return listOf(1, 2, 3,4,5,6)
-}
